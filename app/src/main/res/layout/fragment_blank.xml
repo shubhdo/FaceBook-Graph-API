@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/frameLayout"
+    android:layout_height="match_parent"
+    tools:context="com.cetpainfotech.facebook.BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="281dp"
+        android:text="Please Login"
+        android:textSize="20dp"
+        android:textColor="#0084ff"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal|bottom"
+        android:id="@+id/tv" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:id="@+id/button"
+        android:layout_gravity="right|center_vertical" />
+
+    <EditText
+        android:layout_width="229dp"
+        android:layout_height="83dp"
+        android:textSize="10dp"
+        android:hint="ABOUT"
+        android:textColor="#0084ff"
+        android:id="@+id/textView"
+        android:layout_gravity="left|center_vertical" />
+
+
+</FrameLayout>
